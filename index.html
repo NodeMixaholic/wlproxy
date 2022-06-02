@@ -1,10 +1,15 @@
-
-<script type="text/javascript">
-        function go() {
-        window.location.href = `http://googleweblight.com/i?u=${document.getElementById("txtUrl").value}`
-        }
+<head>
+        <script type="text/javascript">
+                function go() {
+                        window.location.href = `http://googleweblight.com/i?u=${document.getElementById("txtUrl").value}`
+                }
         </script>
-        <form method="post" target="">
+</head>
+<body>
+        <h1>WLProxy</h1>
+    <form method="post" target="">
             <input id="txtUrl" style="width:82%;" placeholder="Put the website to make lite" name="url" type="text" />
             <input style="width:8%;" type="button" value="Go" onclick="go(); return false;"/>
     </form>
+
+</body>
